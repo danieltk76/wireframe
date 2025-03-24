@@ -110,6 +110,17 @@ h1 {
     font-size: 1.2rem;
 }
 
+.skateboard-diagram {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.skateboard-diagram img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+} 
+
 @media (max-width: 768px) {
     .categories {
         grid-template-columns: 1fr;
