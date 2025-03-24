@@ -3,40 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wireframe Test Site</title>
+    <title>Skateboard Guide</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <h1>Test Website</h1>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a href="guide.html">guide</a></li>
+            <li><a href="faq.html">faq</a></li>
+        </ul>
+    </nav>
 
-    <main>
-        <section id="home">
-            <h2>Welcome to the Test Site</h2>
-            <p>This is a basic website for testing deployment.</p>
-        </section>
+    <main class="container">
+        <h1>Skateboard</h1>
+        
+        <div class="content-grid">
+            <div class="skateboard-image">
+                <img src="skateboard-diagram.png" alt="Skateboard diagram">
+            </div>
 
-        <section id="about">
-            <h2>About</h2>
-            <p>This is a simple website created to test deployment processes.</p>
-        </section>
+            <div class="categories">
+                <div class="category">
+                    <h2>Ride</h2>
+                    <p>As a popular form of equipment, the skateboard is quick and easy to carry.</p>
+                </div>
 
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Email: test@example.com</p>
-        </section>
+                <div class="category">
+                    <h2>Show Off</h2>
+                    <p>A major focus of skateboard culture is to show off your skills on the board.</p>
+                </div>
+
+                <div class="category">
+                    <h2>Compete</h2>
+                    <p>At its highest level, skateboard is an impressive sport.</p>
+                </div>
+            </div>
+
+            <div class="description">
+                <h2>Description</h2>
+                <p>The skateboard, originating from California surfer culture in the 1940's and 50's, became increasingly common in the 1980's. The urban sport movement saw a peak in popularity in the early 2000's in form of homemade skate movies (the origins of the YouTube movement), video game franchises (especially Tony Hawk), and video games (particularly the Skate and Pro Skater series).</p>
+            </div>
+
+            <div class="contact">
+                <p>Contact Information</p>
+                <p>email: test@address.com</p>
+            </div>
+        </div>
     </main>
-
-    <footer>
-        <p>&copy; 2024 Test Website. All rights reserved.</p>
-    </footer>
 </body>
 </html> 
